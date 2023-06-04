@@ -35,26 +35,6 @@ return {
 }
 ```
 
-3. Pass your mappings table trough the fix function
-
-If in `mappings.lua`
-
-```lua
-return require("user.utf8mux").mappings {
-    -- your mappings here
-}
-```
-
-If in `init.lua`
-
-```lua
-return {
-    mappings = require("user.utf8mux").mappings {
-        -- your mappings here
-    }
-}
-```
-
 ## Examples
 
 ![example_1](img/eg1.png)  
